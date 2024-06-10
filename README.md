@@ -7,6 +7,10 @@ docker compose up -d
 
 ##Necessary Package
 ```
+npm i --save @nestjs/config
+```
+
+```
 npm i class-validator class-transformer
 ```
 
