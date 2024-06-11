@@ -29,3 +29,7 @@ npm i --save-dev @types/bcryptjs
 ```
 npm install --save @nestjs/jwt
 ```
+
+```
+npm install class-transformer class-validator
+```
