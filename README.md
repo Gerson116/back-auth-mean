@@ -17,3 +17,15 @@ npm i class-validator class-transformer
 ```
 npm i @nestjs/mongoose mongoose
 ```
+
+```
+npm i bcryptjs
+```
+
+```
+npm i --save-dev @types/bcryptjs
+```
+
+```
+npm install --save @nestjs/jwt
+```
