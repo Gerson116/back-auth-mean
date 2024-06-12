@@ -1,7 +1,9 @@
+import { PartialType } from "@nestjs/mapped-types";
 import { Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
+import { UsersDto } from "../dto/users.dto";
 
 @Schema()
-export class User{
+export class User extends PartialType(UsersDto){
 
     _id: string;
     
