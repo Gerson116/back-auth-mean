@@ -1,6 +1,7 @@
 
-export interface OperationResult{
-    response: boolean;
-    message: string;
-    result: any;
+export class OperationResult{
+    response?: boolean;
+    message?: string;
+    result?: any;
+    token?: string;
 }

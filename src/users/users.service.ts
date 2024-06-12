@@ -93,6 +93,15 @@ export class UsersService {
     } catch (error) {}
   }
 
+  async findByEmail(email: string): Promise<User>{
+    try {
+      const data = await this.userModel.findOne({email});
+      return data.toObject();
+    } catch (error) {
+    }
+    return null;
+  }
+
   async findOne(id: string): Promise<OperationResult> {
     try {
       let data = await this.userModel.findById(id).exec();
