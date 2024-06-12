@@ -53,6 +53,7 @@ export class UsersService {
       this._operationResult.message = MessageUsersResults.Create;
       this._operationResult.result = user;
       return this._operationResult;
+
     } catch (error) {
       this._operationResult.response = false;
       this._operationResult.message = this.manageErrors(error.code);
